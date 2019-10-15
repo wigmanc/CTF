@@ -43,6 +43,7 @@ print m
 #14311663942709674867122208214901970650496788151239520971623411712977119645236321549653782653
 s.sendline('Y')
 s.sendline( str(m) )
-print s.recvall()
+#print s.recvall()
+print hex(m)[2:].decode('hex')
  
 s.close()
