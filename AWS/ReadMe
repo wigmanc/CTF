@@ -5,7 +5,7 @@
     (https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
     
     
-    ![1](https://github.com/wigmanc/Resume/blob/master/AWS/1.png)
+![1](https://github.com/wigmanc/Resume/blob/master/AWS/1.png)
     - The basis of the website is to be secure yet straightforward, and with that in mind, I choose to have an S3 Bucket that blocks all public access Off and with Static website hosting enabled—then attached SSL certificate to secure it.
 
     - I could have my resume online with just this, but it would not be secure. To add security, I have attached an SSL certificate. I used AWS Certificate Manager, keeping in mind that the region is set to N. Virginia.
